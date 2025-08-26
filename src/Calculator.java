@@ -9,6 +9,7 @@ public class Calculator {
         try
         {
             z=x/y;
+            System.out.println("Exception not Occurs");
         }
         catch(ArithmeticException e)
         {
