@@ -6,10 +6,10 @@ public class Calculator {
         Scanner sc = new Scanner(System.in);
         int x,y,z = 0;
         System.out.print("Enter any 2 number: ");
-        x = sc.nextInt();
-        y = sc.nextInt();
         try
         {
+            x = sc.nextInt();
+            y = sc.nextInt();
             z=x/y;
             System.out.println("Exception not Occurs");
         }
