@@ -11,7 +11,7 @@ public class arraylist {
         System.out.println("Enter the no. of pdts : ");
         int n = sc.nextInt();
         for (int i = 0; i < n; i++) {
-            products.add(sc.next());
+             products.add(sc.next());
         }
         Iterator<String> it = products.iterator();
         while(it.hasNext()) {
